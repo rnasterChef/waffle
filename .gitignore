@@ -1,0 +1,23 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.waffle/
+gemini_apikey
+*.pem
+*.key
+
+# Build outputs and local deployment records
+/waffle
+/cmd/waffle/waffle
+/relay-server
+/bin/
+/dist/
+/out/
+/cache/
+/broadcast/
+*.test
+coverage.out
+
+# OS files
+.DS_Store
